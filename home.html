@@ -19,6 +19,13 @@
     <main>
         <section>
             <h1>Add new entry</h1>
+            <form action="/entry" method="POST">
+                <p class="form__input">
+                    <label for="entry" class="form__label"></label>Entry contents</label>
+                    <textarea name="content" id="entry" class="form__textarea"></textarea>
+                </p>
+                <button type="submit" class="form__submit">Add entry</button>
+            </form>
         </section>
         <section>
             <h1>Recent posts</h1>
@@ -33,6 +40,25 @@
             </article>
         </section>
     </main>
-    <footer></footer>
+    <footer class="footer">
+        <div class="footer__content">
+            <section class="left">
+                <a class="footer__item">Made by Jurgita Juskaite</a>
+                <a class="footer__item">Check out my other projects</a>
+            </section>
+            <section class="right">
+                <div class="footer_column">
+                    <a class="footer__item">Recent</a>
+                    <a class="footer__item">Calendar</a>
+                </div>
+                <div class="footer_column">
+                    <a class="footer__item">About</a>
+                    <a class="footer__item">How this was made</a>
+                </div>
+            </section>
+        </div>
+    </footer>
 </body>
 </html>
+
+
