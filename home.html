@@ -5,36 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Microblog</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header class="navbar">
         <div class="navbar__brand">
-            <img src="logo.svg" alt="The Microblog logo" />Microblog
+            <img class = "navbar__logo" src="logo.svg" alt="The Microblog logo" />Microblog
         </div>
         <ul class="navbar__navigation">
             <li class="navbar__navigation-item"><a href="#" class="navbar__link">Recent</a></li>
             <li class="navbar__navigation-item"><a href="#" class="navbar__link">Calendar</a></li>
         </ul>
     </header>
-    <main>
+    <main class="main">
         <section>
             <h1>Add new entry</h1>
-            <form action="/entry" method="POST">
+            <form class="form" action="/entry" method="POST">
                 <p class="form__input">
-                    <label for="entry" class="form__label"></label>Entry contents</label>
+                    <label for="entry" class="form__label">Entry contents:</label>
                     <textarea name="content" id="entry" class="form__textarea"></textarea>
+                    <!-- <textarea name="content" id="entry" class="form__textarea" aria-label="Entry contents"></textarea> -->
                 </p>
                 <button type="submit" class="form__submit">Add entry</button>
             </form>
         </section>
         <section>
             <h1>Recent posts</h1>
-            <article>
+            <article class="entry">
                 <div>
-                    <h2>A bit of a chill day today</h2>
-                    <time datetime="24-10-2021">Oct 24</time>
+                    <h2  class="entry__title">A bit of a chill day today</h2>
+                    <time class="entry__date" datetime="24-10-2021">• Oct 24</time>
                 </div>
-                <p>
+                <p class="entry__content">
                     Today I couldn't do much programming but that's OK! Can't be too awesome every day now!
                 </p>
             </article>
@@ -60,5 +62,9 @@
     </footer>
 </body>
 </html>
+
+
+<!-- Contunue to lecture 95 -->
+<!-- read about flexbox https://css-tricks.com/snippets/css/a-guide-to-flexbox/ -->
 
 
