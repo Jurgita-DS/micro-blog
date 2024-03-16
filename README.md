@@ -1,29 +1,18 @@
-# README #
+# Micro blog project #
 
-This README would normally document whatever steps are necessary to get your application up and running.
+This is a repository for learning web development with Flask. The project was to create a Micro blog application.
 
-### What is this repository for? ###
+### Micro blog ###
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+* Front end created using HTML and CSS
+* Backend uses Python Flask library and Jinja2 templates
+* Data is stored in Mango DB
 
-### How do I get set up? ###
+### Link to the web application ###
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+https://python-web-micro-blog.onrender.com/
 
-### Contribution guidelines ###
+### Link to the online course ###
+Web Developer Bootcamp with Flask and Python in 2023
+https://www.udemy.com/course/web-developer-bootcamp-flask-python/l
 
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
