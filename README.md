@@ -17,5 +17,5 @@ https://python-web-micro-blog.onrender.com/
 
 ### Link to the online course ###
 Web Developer Bootcamp with Flask and Python in 2023
-https://www.udemy.com/course/web-developer-bootcamp-flask-python/l
+https://www.udemy.com/course/web-developer-bootcamp-flask-python/
 
